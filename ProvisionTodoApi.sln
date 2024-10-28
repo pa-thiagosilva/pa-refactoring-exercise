@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionTodoApi", "ProvisionTodoApi.csproj", "{FCA56F16-9D07-45E1-9CDE-03A277E0E0D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionTodoApi", "ProvisionTodoApi\ProvisionTodoApi.csproj", "{FCA56F16-9D07-45E1-9CDE-03A277E0E0D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionTodoApiTests", "..\ProvisionTodoApiTests\ProvisionTodoApiTests\ProvisionTodoApiTests.csproj", "{C2F4EAFB-4D3F-43E9-B27A-3C81EF7C436D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionTodoApiTests", "ProvisionTodoApiTests\ProvisionTodoApiTests.csproj", "{C2F4EAFB-4D3F-43E9-B27A-3C81EF7C436D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

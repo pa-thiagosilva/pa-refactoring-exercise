@@ -1,10 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using ProvisionTodoApi.Domain;
+using TodoApi.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<TodoContext>(options =>
+{
+    options.UseSqlite("Data Source=Todo.db");
+});
 
 builder.Services.AddControllers();
 var app = builder.Build();
